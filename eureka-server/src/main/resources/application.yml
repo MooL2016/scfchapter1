@@ -12,6 +12,15 @@ eureka:
     enableSelfPreservation: false
     leaseRenewalIntervalInSeconds: 2
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS
+
 spring:
   application:
     name: eurka-server
