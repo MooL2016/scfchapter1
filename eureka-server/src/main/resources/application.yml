@@ -9,6 +9,8 @@ eureka:
     fetchRegistry: false
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+    enableSelfPreservation: false
+    leaseRenewalIntervalInSeconds: 2
 
 spring:
   application:

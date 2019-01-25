@@ -25,3 +25,6 @@
 /dist/
 /nbdist/
 /.nb-gradle/
+/eureka-server/.mvn/
+service-hi/.gitignore
+service-hi/.mvn/
