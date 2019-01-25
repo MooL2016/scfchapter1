@@ -1,5 +1,5 @@
 server:
-  port: 8762
+  port: 8763
 
 spring:
   application:
@@ -9,3 +9,12 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS

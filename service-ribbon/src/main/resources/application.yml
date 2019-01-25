@@ -7,3 +7,12 @@ server:
 spring:
   application:
     name: service-ribbon
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS
