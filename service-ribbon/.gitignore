@@ -1,5 +1,3 @@
-# Created by .ignore support plugin (hsz.mobi)
-/.idea/
 /target/
 !.mvn/wrapper/maven-wrapper.jar
 
@@ -25,5 +23,3 @@
 /dist/
 /nbdist/
 /.nb-gradle/
-*/.mvn/
-service-hi/.gitignore
